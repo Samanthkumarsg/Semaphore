@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Semaphore App</title>
+		<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+		<script>
+			// Initialize Firebase
+			var config = {
+				apiKey: 'AIzaSyAl3CwpK-NVy_kcELSiXrm5nwXmKYmJ6Us',
+				authDomain: 'semaphore-55349.firebaseapp.com',
+				databaseURL: 'https://semaphore-55349.firebaseio.com',
+				projectId: 'semaphore-55349',
+				storageBucket: 'semaphore-55349.appspot.com',
+				messagingSenderId: '1038943415868'
+			};
+			firebase.initializeApp(config);
+		</script>
+
+		<script src="./script.js"></script>
+	</head>
+	<body>
+		<button onclick="login()">Login With Google</button>
+	</body>
+</html>
