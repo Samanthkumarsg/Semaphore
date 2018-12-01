@@ -5,7 +5,7 @@ provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
 
 // Initialize Firebase
 var config = {
-	apiKey: 'AIzaSyAl3CwpK-NVy_kcELSiXrm5nwXmKYmJ6Us',
+	apiKey: '',
 	authDomain: 'semaphore-55349.firebaseapp.com',
 	databaseURL: 'https://semaphore-55349.firebaseio.com',
 	projectId: 'semaphore-55349',
