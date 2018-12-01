@@ -1,0 +1,19 @@
+nav {
+  position: fixed;
+  width: 0vw;
+  height: 0vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-open {
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: all 2ms;
+}
+
+#menu-icon {
+  font-size: 2.4em;
+  padding: 1em;
+}
